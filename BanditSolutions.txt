@@ -1,0 +1,111 @@
+Bandit 
+0) Password is bandit0
+   ```ssh bandit0@bandit.labs.overthewire.org -p 2220```
+   -p option specifies the port
+
+1) Pasword is NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+   ```cat readme```
+   
+2) Pasword is rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+  ``` cat ./-```
+   can use ./ in front of weird file names 
+   
+3)Password is aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+ ``` cat 'spaces in this filename'```
+  can use '' or "" for spacy file names
+  
+4) Password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+   ```cd /inhere
+   ls -al
+   cat .hidden```
+   -a shows hidden files 
+   
+ 5) Password is lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+   ``` file ./* ```(shows file07 is the only ASCII text file)
+	```cat ./-file07```
+	ASCII is human readable
+	
+6) Password is P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+   ```find . -size 1033c (shows ./maybeinhere07/.file2) 
+   file ./* (shows file2 is human readable)
+   ls -la (shows file2 is non executable / its not green)```
+   I kept swithching the 2 and 7 and file7 is both 
+   very long and not the correct password.
+   
+7) Password is z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+   ```find / -user bandit7 -size 33c -group bandit6 | grep "bandit7" 
+   (shows files with correct user, group and size) 
+   cat /var/dpkg/info/bandit7.password```
+   searching by exact size narrows the options down way faster than 
+   the other conditions.
+   
+8) Password is TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+   ``cat data.txt | grep 'millionth'```
+   The string in grep only 
+   needs '' or "" if there are spaces or
+   weird characters, but it doesn't care.
+   
+9) Password is EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+   ```sort data.txt | uniq -u```
+   uniq only finds matching lines if they are 
+   right next to eachother, so sorting the lines 
+   before uniq allows it to actually do it's job. 
+   
+10) Password is G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+    ```strings data.txt (shows all human friendly strings)```
+	(password is super obvious so you don't need grep)
+	
+11) Password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+    ```base64 --d data.txt```
+	base64 is not encryption, 
+	but it is encoding, 
+	which is a totaly differnt thing. 
+
+12) Password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+    ```strings data.txt | tr a-zA-Z n-za-mN-ZA-M```
+	(shifts all leters by 13) 
+	ROT13 only swaps letters,
+	not spaces or punctuation. 
+	
+13) Password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+    ```xxd -r data.txt decompressed 
+    (decompress data and output in decompressed)
+	file decompressed (check if file is still compressed) 
+    mv decompressed decompressed2.gz 
+    gzip -d decompressed2.gz```
+	
+	^ Do that a bunch more times until file stops 
+	  saying its compressed, then cat the file.
+
+14) Password is fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+    ```ssh bandit14@localhost -i key.private -p 2220
+    cat /etc/bandit_pass/bandit14 (show password)```
+	-i to ssh with a key file, 
+	key file has to be chmod 400!
+
+15) Password is jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+	```echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000```
+	"host" is not spelled "hoast" and that was a very sad 20 minutes. 
+	
+	
+16) Password is JQttfApK4SeyHwDlI9SXGR50qclOAil1
+	scan ports with nmap 
+     ```echo "JQttfApK4SeyHwDlI9SXGR50qclOAil1" | 
+	 openssl s_client -connect localhost:31790 -ign_eof```
+	 
+17) Password is a private key, starts with MIIEogIBAAKCAQEAvmOk
+	ssh with RSA key from previous level, chmod key file first. 
+	```diff passwords.old passwords.new```
+	diff just finds lines in a file that don't match lines in another file. 
+	https://www.geeksforgeeks.org/diff-command-linux-examples/
+	
+
+18) Password is hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+	```ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"```
+	
+19) Password is awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+	```./bandit20-do id
+	./bandit20-do cat /etc/bandit_pass/bandit20```
+	If a setuid bit is on, everyone can run the file 
+	as root.
+	
