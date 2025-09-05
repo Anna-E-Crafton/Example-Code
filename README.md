@@ -1,6 +1,6 @@
 # Example-Code
 
-Code from homework projects in Java, SQL, and Python.
+Code from homework and projects I've done in Java, SQL, and Python.
 
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
