@@ -4,7 +4,7 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 ...
 
-- Add CEG4350 database!
+- Add CEG4350 Operating System!
 - Add Stardew Vally Mod
 - Add HTML / Angular / Java Script page
   
