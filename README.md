@@ -21,7 +21,7 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 [Java Example, 2022](https://github.com/Anna-E-Crafton/Example-Code/blob/main/CraftonAnnaSimulation.java)
 
-  > Grocery store simulation using multithreading to determine the ideal number of express lanes.
+  > Grocery store simulation to determine the ideal number of express lanes.
 
 ... 
 
