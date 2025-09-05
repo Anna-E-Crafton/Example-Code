@@ -1,6 +1,6 @@
-# Example-Code
 
-Code from homework and projects I've done in Java, SQL, and Python.
+# Example-Code 
+Homework and projects I've done in Java, SQL, and Python.
 
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
@@ -16,16 +16,12 @@ Code from homework and projects I've done in Java, SQL, and Python.
 
   > Grocery store simulation using multithreading to determine the ideal number of express lanes.
 
+... 
 
-
-
-
-
-
-
-
-
-
+# Other 
+Proficient in Java, C++, and Python. 
+Experience with  front end, back end, cyber security, databases
+[SQL, Ubuntu, Linux, Powershell, Ruby, AWS, Python, Virtual Box, Racket, Angular, JavaScript, ]
 
 
 
