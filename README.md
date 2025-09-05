@@ -1,6 +1,8 @@
 
-# Example-Code 
-Homework and projects I've done in Java, SQL, and Python.
+# Summary of Projects
+Summaries and Links to Homework and Projects in Java, SQL, and Python
+
+...
 
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
