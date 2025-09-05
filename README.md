@@ -4,10 +4,10 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 ...
 
-# TODO
 - Add CEG4350 database!
 - Add Stardew Vally Mod
 - Add HTML / Angular / Java Script page
+  
 
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
