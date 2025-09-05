@@ -2,9 +2,6 @@
 
 Code from homework projects in Java, SQL, Python, and C++.
 
-# Project Descriptions and Hyperlinks
-
-
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
   > SQL Database for keeping track of students and facalty. 
