@@ -26,9 +26,12 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 ... 
 
 # Other 
+
+Cyber Security Analytics Certificate (Wright State) 
+
 Proficient in Java, C++, and Python. 
-Experience with  front end, back end, cyber security, databases
-[SQL, Ubuntu, Linux, Powershell, Ruby, AWS, Python, Virtual Box, Racket, Angular, JavaScript, ]
+
+Experience with SQL, Ubuntu, Linux, Powershell, Ruby, AWS, Python, Virtual Box, Racket, Angular, JavaScript, front end, back end, databases.
 
 
 
