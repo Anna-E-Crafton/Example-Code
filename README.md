@@ -6,7 +6,7 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 [Operating System, 2025](https://github.com/Anna-E-Crafton/Example-Code/tree/main/OperatingSystem)
 
-  > Kernels for a simple OS written in C++.
+  > Kernels for a simple OS written in C.
 
 [JS/HTML Example, 2024](https://github.com/Anna-E-Crafton/Example-Code/tree/main/WebDesFinal) 
 
