@@ -1,0 +1,105 @@
+<!--registration.html-->
+<!-- Html page with an input form and dynamic table for WebDes Final-->
+<!--Anna Crafton-->
+<!--12/12/2024-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/registration.css">
+      <script type="text/javascript" src="JS/script.js"></script>
+
+      <title>Registration</title>
+   </head>
+   
+   <body>
+    
+        <section>
+
+            <!-- Header -->
+            <header>
+                <!-- Header Text -->
+                <h1>Anna Crafton</h1>
+
+            </header>
+
+            <!-- Navigation -->
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li class="currentPage"><a href="registration.html">Registration</a></li>
+                </ul>
+
+            </nav>
+
+            <!-- Main Content -->
+            <main>
+
+                <!-- Header and text explaining the form -->
+                <h2>Registration</h2>
+
+                <article>
+                    <p> Welcome! Please enter your Name, Email, and Phone Number into the form below. The information will be added to a dynamically generated table and used for nothing. 
+                    </p>
+                </article>
+
+                <!--Input Form for text, radio buttons, and check boxes with a submit button-->
+                <fieldset id="inputForm">
+
+                    <!--Text Inputs-->
+                    <input type="text" id="name" placeholder="Name..." required />
+                    <input type="email" id="email" placeholder="Email..." required />
+                    <input type="tel" id="phone" placeholder="Phone..." required />
+
+                    <!--Radio Buttons-->
+
+                    <h3>Breakfast Food:</h3>
+
+                    <input type="radio" id="pancakes" name="breakfastFood" value="pancakes">
+                    <label for="pancakes">Pancakes</label><br>
+
+                    <input type="radio" id="waffles" name="breakfastFood" value="waffles">
+                    <label for="waffles">Waffles</label><br>
+                        
+                    <!--Check Boxes-->
+                    <h3>Animals:</h3>
+
+                    <input type="checkbox" id="cats" name="animals" value="cats">
+                    <label for="cats">Cats</label><br>
+
+                    <input type="checkbox" id="dogs" name="animals" value="dogs">
+                    <label for="cats">Dogs</label><br>
+
+                    <input type="checkbox" id="sharks" name="animals" value="Sharks">
+                    <label for="cats">Sharks</label><br><br>
+
+                    <!--Submit Button-->
+                    <button type="button" id="inputFormButton" onClick="updateTable()">Submit</button>
+
+                </fieldset>
+
+            
+                <div id="tableDiv"></div>
+
+
+            </main>
+
+            <!-- Footer -->
+            <footer>
+                <p id="footerText">&copy; ADD YEAR HERE, Anna Crafton. All Rights Reserved. </p>
+            </footer>
+
+        </section> 
+
+   </body>
+
+</html>
+
+<script type="text/javascript" src="JS/script.js"></script>

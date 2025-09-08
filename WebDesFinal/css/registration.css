@@ -1,0 +1,144 @@
+/*registration.css
+  Styling for registration.html page for webDes Final
+  Anna Crafton
+  12/12/2024*/
+
+
+/*global color and size variables*/
+:root {
+
+    --bg--color: white;
+    --bg--dark--color: white; /*CAN CHANGE TO WHITESMOKE*/
+    --bg--off--color: aliceBlue;
+    --text--light--color: white;
+    --text--dark--color:black;
+    --mid--color:darkslateBlue; 
+    --dark--color:rgb(30, 30, 30);
+    --light--color: cornflowerBlue;
+    --off--color:slateBlue; 
+
+    --left--margin: 10%;
+    --major--width: 75%;
+
+}
+
+/*Body*/
+body {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+/*General Text*/
+article {
+
+    margin-left: var(--left--margin);
+
+}
+
+/*Headings*/
+h2 {
+
+    color: var(--dark--color);
+    margin-left: var(--left--margin);
+    margin-bottom: 0px;
+    margin-top: 4.2em;
+
+}
+
+/*General Input Form styling*/
+#inputForm {
+
+    /*aestetics*/
+    width: var(--major--width);
+    background-color:var(--bg--off--color);
+    border-color:var(--mid--color);
+    border-width: 5px;
+    border-radius: 5px;
+
+    /*spacing inside form*/
+    margin-left:var(--left--margin);
+
+}
+
+
+/*Input Boxes*/
+input {
+
+    font-size:large;
+    width:100%;
+    border:none;
+    background-color: var(--mid--color);
+    color:var(--text--light--color);
+    line-height: 2em;
+
+}
+
+/*Input box while it is being typed in*/
+input:focus{
+
+    background-color: var(--light--color);
+
+}
+
+/*Placeholder Text in Input Boxes*/
+::placeholder {
+
+    color: var(--text--light--color);
+
+}
+
+/*Multiple Choice Inputs*/
+input[type="radio"], input[type="checkbox"] {
+
+    color:var(--text--dark--color);
+    width: 20%;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+/*String Inputs*/
+input[type="text"], input[type="email"], input[type="phone"]{
+
+    margin-bottom:1em;
+}
+
+/*Submit Button*/
+button {
+
+    background-color: var(--light--color);
+    color: var(--text--dark--color);
+    font-size: 16px; 
+    border: none; 
+    padding: 15px 20px;
+    color: var(--text--light--color);
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}
+
+/*Submit button changes color on hover*/
+button:hover {
+    background-color: var(--off--color);
+}
+
+/*Styling for the dynamicly generated table*/
+#inputTable {
+
+    /*aestetics*/
+    width: 77%;
+    background-color:var(--mid--color);
+    margin-left:var(--left--margin);
+    margin-bottom:2%;
+
+    color: var(--text--light--color);
+
+}
+
+/*Footer*/
+footer {
+
+    color: var(--text--light--color);
+}

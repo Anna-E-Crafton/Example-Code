@@ -1,0 +1,90 @@
+/*index.css
+  Styling for home page for webDes Final
+  Anna Crafton
+  12/12/2024*/
+
+  /*Global color variables*/
+  :root {
+       
+    --bg--color: white;
+    --bg--dark--color: white; 
+    --bg--off--color: aliceBlue;
+    --text--light--color: white;
+    --text--dark--color:black;
+    --mid--color:darkslateBlue; 
+    --light--color: cornflowerBlue;
+    --off--color:slateBlue; 
+
+    --header--height: 6%;
+
+  }
+
+  /*Profile Image*/
+  #image {
+
+    max-height: 100%;
+    max-width: 100%;
+
+  }
+
+  /*About Section*/
+  #aboutDiv {
+
+    float:left;
+    margin-top: 1%;
+    width:10%;
+    height:40em;
+    background-color: var(--mid--color);
+    border-width:5px;
+    border-style:solid;
+    border-color: var(--mid--color);
+    margin-right:2.5%;
+
+  }
+
+  /*About Section Header*/
+  h3 {
+
+    text-align: center;
+    color: var(--text--light--color);
+    line-height: 2em;
+    margin-bottom:0;
+
+  }
+
+  /*Text inside About Section*/
+  #aboutText {
+
+    text-align: left;
+    margin-left:5%;
+    color:var(--text--light--color);
+
+  }
+
+ /*Div that contains paragraphs and header*/
+  #textDiv, h2{
+
+    width:50%;
+    line-height: 2;
+
+    float:left;
+    margin-left:2%;
+
+    background-color: var(--bg--color);
+
+  }
+
+ /*Text inside textDiv*/
+ #textDiv[class=p] {
+
+    text-align: left;
+    color: var(--text--light--color);
+    
+ }
+
+  /*Footer*/
+  footer{
+    
+    color: var(--text--light--color);
+
+  }

@@ -1,0 +1,142 @@
+/*style.css
+  general styles for index.html, interests.html, and registration.html
+  Anna Crafton
+  12/12/2024*/
+
+
+/*global color and size variables*/
+:root {
+
+   
+    --bg--color: white;
+    --bg--dark--color: white;
+    --bg--off--color: aliceBlue;
+    --text--light--color: white;
+    --text--dark--color:black;
+    --mid--color:darkslateBlue; 
+    --light--color: cornflowerBlue;
+    --off--color:slateBlue; 
+
+    --header--height: 3em;
+    --nav--height: 1.5em;
+
+}
+
+/*Body*/
+body {
+
+    background-color:var(--bg--dark--color);
+}
+
+/*Header*/
+header {
+
+    /*aestetics*/
+    height: var(--header--height);
+
+    /*align header text to center*/
+    text-align:center;
+    line-height:1.5;
+
+    /*fixes header (including nav bar) to top of page*/
+    position: fixed;
+    top: 0px;
+    width: 100%; 
+    background-color: var(--light--color);
+
+}
+
+/*Header Text*/
+h1 {
+
+    color: var(--text--light--color);
+    font-size:xx-large;
+    margin-top: 0px;
+    margin-bottom:0px;
+
+}
+
+/*Minor Headings*/
+h3 {
+
+    color: var(--text--dark--color);
+
+}
+
+/*Navigation*/
+nav {
+
+    position: fixed;
+    top:var(--header--height);
+    width:100%;
+
+    background-color: var(--mid--color);
+    height: var(--nav--height);
+
+
+}
+
+/*UL for Navigation Bar*/
+ul {
+
+    /*move navigation links to left side of screen */
+    margin-right: 75%;
+    margin-top: 0px;
+
+}
+
+/*LI for Navigation Bar*/
+li {
+
+    /*arrange links horozontally and space them out*/
+    display: inline;
+    margin-right:20px;
+}
+
+
+/*Nav Link Text*/
+a {
+    color:var(--text--light--color);
+    text-decoration:none;
+    font-size:large;
+}
+
+
+/*Class of Nav Link for the html page you are currently on*/
+.currentPage {
+
+    /*chages color of nav link to indicate what page you are on*/
+    background-color:var(--off--color);
+
+}
+
+/*Main*/
+main {
+
+    min-height:42em;
+    background-color:var(--bg--color);
+    margin-top: 4.75em;
+
+}
+
+
+/*Footer*/
+footer {
+
+    /*aestetics*/
+    width:100%;
+    font-size:small;
+    background-color:var(--light--color);
+    color: var(--light--text--color);
+
+    /*center text*/
+    text-align:center;
+    line-height: 2;
+    height:2em;
+
+    /*fix footer to bottom of page*/
+    position:static;
+    bottom:5px;
+
+}
+

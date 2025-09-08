@@ -1,0 +1,72 @@
+/*interests.css
+  interest table page for WebDes final
+  Anna Crafton
+  12/12/2024*/
+
+
+  /*GLobal Color Variables*/
+  :root {
+       
+    --bg--color: white;
+    --bg--dark--color: white; /*CAN CHANGE TO WHITESMOKE*/
+    --bg--off--color: aliceBlue;
+    --text--light--color: white;
+    --text--dark--color:black;
+    --mid--color:darkslateBlue; 
+    --light--color: cornflowerBlue;
+    --off--color:slateBlue; 
+
+}
+
+/*General Table Styling*/
+table {
+
+    width: 80%; 
+    margin-left: 10%;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color:var(--mid--color);
+
+    text-align: left;
+    line-height: 2em;
+
+    background-color: var(--mid--color);
+
+    color: var(--text--light--color);
+}
+
+/*Table Data*/
+td {
+    border: solid;
+    border-color:var(--bg--off--color);
+    background-color: var(--bg--color);
+    color: var(--text--dark--color);
+
+}
+
+/*Headings*/
+h2 {
+
+    color: var(--dark--color);
+    margin-left: 10%;
+    margin-bottom: 0px;
+    margin-top: 4.2em;
+    
+}
+
+/*Paragraph explaining the table*/
+p[id="interestsText"]{
+
+    margin-left: 10%;
+    line-height: 2em;
+
+}
+
+/*Footer*/
+footer {
+
+    color: var(--text--light--color);
+
+}
+
