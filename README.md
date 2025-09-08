@@ -12,11 +12,11 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
   > A website with 3 pages using HTML, Java Script, YML, and CSS. 
   
-[SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
+[SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/Database.sql)
 
   > SQL script for a database of students, teachers, and internships.
 
-[Python Example, 2023](https://github.com/Anna-E-Crafton/Example-Code/blob/main/Project6.py)
+[Python Example, 2023](https://github.com/Anna-E-Crafton/Example-Code/blob/main/Hangman.py)
 
   > Hangman game in Python.
 
