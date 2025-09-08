@@ -4,15 +4,17 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 ...
 
-- Add CEG4350 Operating System!
-- Add Stardew Vally Mod
-- Add HTML / Angular / Java Script page
-  
+[Operating System, 2025](https://github.com/Anna-E-Crafton/Example-Code/tree/main/OperatingSystem)
 
+  > Kernels for a simple OS written in C++.
+
+[JS/HTML Example, 2024](https://github.com/Anna-E-Crafton/Example-Code/tree/main/WebDesFinal) 
+
+  > A website with 3 pages using HTML, Java Script, YML, and CSS. 
+  
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/FinalScriptClean.txt)
 
   > SQL script for a database of students, teachers, and internships.
-
 
 [Python Example, 2023](https://github.com/Anna-E-Crafton/Example-Code/blob/main/Project6.py)
 
@@ -21,7 +23,7 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 [Java Example, 2022](https://github.com/Anna-E-Crafton/Example-Code/blob/main/CraftonAnnaSimulation.java)
 
-  > Grocery store simulation to determine the ideal number of express lanes.
+  > A grocery store simulation to determine the ideal number of express lanes.
 
 ... 
 
