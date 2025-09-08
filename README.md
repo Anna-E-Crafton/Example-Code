@@ -10,7 +10,7 @@ Summaries and Links to Homework and Projects in Java, SQL, and Python
 
 [JS/HTML Example, 2024](https://github.com/Anna-E-Crafton/Example-Code/tree/main/WebDesFinal) 
 
-  > A website with 3 pages using HTML, Java Script, YML, and CSS. 
+  >  A website that formats user input in a dynamically allocated table.  
   
 [SQL Example](https://github.com/Anna-E-Crafton/Example-Code/blob/main/Database.sql)
 
